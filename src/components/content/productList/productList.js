@@ -80,36 +80,46 @@ class ProductList extends Component {
         };
 
         this.setProduct = (el, i) => {
-            return <Product index = {i} img = {el.img} title = {el.title} subTitle = {el.subTitle} text = {el.text} addCart = {this.addToCart}/>;
+            return <Product key = {i} index = {i} img = {el.img} title = {el.title} subTitle = {el.subTitle} text = {el.text} addCart = {this.addToCart}/>;
         };
     }
 
     //попытка сделать живой поиск товаров, пока что не получилось!
 
     render() {
-        //---------------------------------------------------------------------------------
-        if (this.props.resProd != "") {
-            return (
-                <section className="productList">
-                    <div className="row">
-                        {
-                            this.state.data.filter(this.filterProducts).map( this.setProduct )
-                        }
-                    </div>
-                </section>
-            );
-        //---------------------------------------------------------------------------------
-        } else {
-            return (
-                <section className="productList">
-                    <div className="row">
-                        {
-                            this.state.data.map( this.setProduct )
-                        }
-                    </div>
-                </section>
-            );
-        }
+        // //---------------------------------------------------------------------------------
+        // if (this.props.resProd != "") {
+        //     return (
+        //         <section className="productList">
+        //             <div className="row">
+        //                 {
+        //                     this.state.data.filter(this.filterProducts).map( this.setProduct )
+        //                 }
+        //             </div>
+        //         </section>
+        //     );
+        // //---------------------------------------------------------------------------------
+        // } else {
+        //     return (
+        //         <section className="productList">
+        //             <div className="row">
+        //                 {
+        //                     this.state.data.map( this.setProduct )
+        //                 }
+        //             </div>
+        //         </section>
+        //     );
+        // }
+
+        return (
+            <section className="productList">
+                <div className="row">
+                    {
+                        this.state.data.map( this.setProduct )
+                    }
+                </div>
+            </section>
+        );
     }
 }
 

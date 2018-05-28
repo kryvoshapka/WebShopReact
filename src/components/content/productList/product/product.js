@@ -12,7 +12,7 @@ class Product extends Component {
     }
     render() {
         return (
-            <div className="col-md-4" id="product-item">
+            <div className="col-md-4 product-item">
                 <Card>
                     <CardImg top width="100%" src={this.props.img} alt="Card image cap" />
                     <CardBody>
