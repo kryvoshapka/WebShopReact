@@ -1,0 +1,12 @@
+.cart {
+    background: none !important;
+    border: none !important;
+    position: relative;
+}
+
+.cart p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #000;
+}

@@ -1,0 +1,33 @@
+header {
+    height: 100vh;
+    background: url("./header.jpg");
+    background-size: cover;
+}
+
+.headBody {
+    color: #ffffff;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headBody h1 {
+    font-size: 3.25rem;
+}
+
+.headBody p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.headBody p span {
+    font-weight: bold;
+}
+
+.headBody button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
