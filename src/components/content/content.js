@@ -81,9 +81,7 @@ class Content extends Component {
     sendToCart = product => {
         this.state.toBasket.push(product);
     };
-    searchRes = str => {
-        this.state.searchResultsToFilter = str;
-    };
+
     filterData = (filteredData) => {
         // console.log('click', filteredData);
         this.setState({data: filteredData});

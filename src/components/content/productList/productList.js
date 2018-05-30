@@ -7,7 +7,6 @@ class ProductList extends Component {
         super(props);
 
         this.state = {
-            data: this.props.data,
             roolSearch: this.props.resProg
         };
 
@@ -21,7 +20,7 @@ class ProductList extends Component {
     //---------------------------------------------------------------------------------
 
     addToCart = index => {
-        this.props.toCart(this.state.data[index]);
+        this.props.toCart(this.props.data[index]);
     };
 
     setProduct = (el, i) => {
@@ -59,7 +58,7 @@ class ProductList extends Component {
             <section className="productList">
                 <div className="row">
                     {
-                        this.state.data.map( this.setProduct )
+                        this.props.data.map( this.setProduct )
                     }
                 </div>
             </section>
