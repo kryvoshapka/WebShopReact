@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5510f658-c9cc-476a-8865-ab06f7c6987d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/categories/cart/cart.js" afterPath="$PROJECT_DIR$/src/components/content/categories/cart/cart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/content.js" afterPath="$PROJECT_DIR$/src/components/content/content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/filters/filters.css" afterPath="$PROJECT_DIR$/src/components/content/filters/filters.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/filters/filters.js" afterPath="$PROJECT_DIR$/src/components/content/filters/filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/productList/productList.js" afterPath="$PROJECT_DIR$/src/components/content/productList/productList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,14 +28,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/content/content.js">
+      <file leaf-file-name="productList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/content/productList/productList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="43" />
+            <state relative-caret-position="408">
+              <caret line="39" column="81" lean-forward="false" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#261#111846#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -48,8 +43,8 @@
       <file leaf-file-name="filters.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/content/filters/filters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -57,13 +52,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/content/productList/productList.js">
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/content/content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="81" lean-forward="false" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
+            <state relative-caret-position="392">
+              <caret line="84" column="46" lean-forward="true" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#261#111846#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -246,12 +242,12 @@
       <updated>1527530948980</updated>
       <workItem from="1527530950481" duration="249000" />
       <workItem from="1527587984056" duration="3938000" />
-      <workItem from="1527666712614" duration="11879000" />
+      <workItem from="1527666712614" duration="21772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16066000" />
+    <option name="totallyTimeSpent" value="25959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -430,7 +426,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/content/productList/productList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="408">
           <caret line="39" column="81" lean-forward="false" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -440,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/content/content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="43" />
+        <state relative-caret-position="392">
+          <caret line="84" column="46" lean-forward="true" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#261#111846#0" expanded="false" />
@@ -451,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/content/filters/filters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

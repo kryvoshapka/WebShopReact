@@ -8,31 +8,31 @@ class Filters extends Component {
         this.toggle = this.toggle.bind(this);
         this.state = {
             collapse: false,
-            data: this.props.data
+            data: this.props.data,
+            filterValue: []
         };
 
         this.setData = this.setData.bind(this);
     }
 
     setData = () => {
-        const inputElems = document.querySelector(".input-elem");
-        const inputCheckedElem = inputElems.checked;
-        const inputValue = inputElems.value;
-
-        const stateData = this.state.data;
-
-
-        // if(inputCheckedElem){
-        //     stateData.forEach(elem => {
-        //         if(elem.subTitle === inputValue){
-        //             console.log("yes");
-        //         }
-        //         return null;
-        //     })
-        // }
-
-        // this.props.filterData(this.state.data[0]);
+        let filtersArr = [];
+        this.state.data.forEach(elem => {
+            this.state.filterValue.forEach(filterElem => {
+                if(elem.subTitle === filterElem){
+                    filtersArr.push(elem);
+                }
+            })
+        });
+        console.log(filtersArr);
+        this.props.filterData(filtersArr);
     };
+
+    changeFilterValue = (value) => {
+        let currVal = this.state.filterValue;
+        currVal.push(value.target.value);
+        this.setState({filterValue: currVal});
+    }
 
     toggle() {
         this.setState({ collapse: !this.state.collapse });
@@ -48,27 +48,27 @@ class Filters extends Component {
                             <form action="">
                                 <FormGroup check>
                                     <Label check>
-                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с сыром"/>
+                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с сыром" onChange={this.changeFilterValue}/>
                                         c сыром
                                     </Label>
                                     <Label check>
-                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с говядиной"/>
+                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с говядиной" onChange={this.changeFilterValue}/>
                                         со говядиной
                                     </Label>
                                     <Label check>
-                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля со свининой"/>
+                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля со свининой" onChange={this.changeFilterValue}/>
                                         со свининой
                                     </Label>
                                     <Label check>
-                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с крольчатиной"/>
+                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с крольчатиной" onChange={this.changeFilterValue}/>
                                         с крольчатиной
                                     </Label>
                                     <Label check>
-                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с олениной"/>
+                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с олениной" onChange={this.changeFilterValue}/>
                                         с олениной
                                     </Label>
                                     <Label check>
-                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с волчатиной"/>
+                                        <Input className="input-elem" type="checkbox" name="food" value="карамбуля с волчатиной" onChange={this.changeFilterValue}/>
                                         с волчатиной
                                     </Label>
                                 </FormGroup>

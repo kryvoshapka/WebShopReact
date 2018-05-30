@@ -82,7 +82,7 @@ class Content extends Component {
         // console.log(this.state.searchResultsToFilter);
     };
     filterData = (filteredData) => {
-        console.log('click', filteredData);
+        // console.log('click', filteredData);
         this.setState({data: filteredData});
     };
 
