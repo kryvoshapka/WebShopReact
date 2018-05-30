@@ -12,8 +12,8 @@ class Cart extends Component {
             dropdownOpen: false
         };
 
-        this.fillCart = (el) => {
-            return <DropdownItem>{el.title}</DropdownItem>;
+        this.fillCart = (el, i) => {
+            return <DropdownItem key = {i}>{el.title}</DropdownItem>;
         }
     }
 
@@ -23,7 +23,7 @@ class Cart extends Component {
         }));
     }
     render() {
-        if (this.props.cartContent.length != 0) {
+        if (this.props.cartContent.length !== 0) {
             return (
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                     <DropdownToggle className="cart">
