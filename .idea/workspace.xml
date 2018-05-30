@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5510f658-c9cc-476a-8865-ab06f7c6987d" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/content.js" afterPath="$PROJECT_DIR$/src/components/content/content.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/filters/filters.js" afterPath="$PROJECT_DIR$/src/components/content/filters/filters.js" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/content/productList/productList.js" afterPath="$PROJECT_DIR$/src/components/content/productList/productList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
+>>>>>>> b030e0104715c7396d27de9c07b7d6360bffb71d
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,6 +26,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
@@ -66,6 +78,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -240,14 +253,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527530948980</updated>
+<<<<<<< HEAD
+      <workItem from="1527530950481" duration="1748000" />
+      <workItem from="1527674400061" duration="1263000" />
+=======
       <workItem from="1527530950481" duration="249000" />
       <workItem from="1527587984056" duration="3938000" />
+<<<<<<< HEAD
       <workItem from="1527666712614" duration="21772000" />
+=======
+      <workItem from="1527666712614" duration="11879000" />
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
+>>>>>>> b030e0104715c7396d27de9c07b7d6360bffb71d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="25959000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="3011000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25300547" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29501083" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+=======
+    <option name="totallyTimeSpent" value="16066000" />
+>>>>>>> b030e0104715c7396d27de9c07b7d6360bffb71d
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -270,6 +330,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +346,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/components/content/productList/product/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/content/productList/product/product.css">
+=======
     <entry file="file://$PROJECT_DIR$/src/App.js">
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
@@ -293,20 +368,37 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/components/content/productList/productList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#125#111710#0" />
+=======
     <entry file="file://$PROJECT_DIR$/src/components/content/categories/categories.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/components/content/productList/product/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+=======
     <entry file="file://$PROJECT_DIR$/src/components/content/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#261#111846#0" expanded="false" />
@@ -354,8 +446,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/content/productList/productList.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="70">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+=======
         <state relative-caret-position="1122">
           <caret line="121" column="10" lean-forward="true" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+>>>>>>> f10a700dfa6061eb7832b94f197b848ec1550003
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -452,6 +549,13 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/content/productList/product/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -74,12 +74,15 @@ class Content extends Component {
         this.filterData = this.filterData.bind(this);
     }
 
+    deleteFromBasket = index => {
+        this.state.toBasket.splice(index, 1);
+    };
+
     sendToCart = product => {
         this.state.toBasket.push(product);
     };
     searchRes = str => {
         this.state.searchResultsToFilter = str;
-        // console.log(this.state.searchResultsToFilter);
     };
     filterData = (filteredData) => {
         // console.log('click', filteredData);

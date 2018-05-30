@@ -12,8 +12,12 @@ class Cart extends Component {
             dropdownOpen: false
         };
 
+        this.deleteProduct = e => {
+            console.log(e.target.getAttribute("key"));
+        };
+
         this.fillCart = (el, i) => {
-            return <DropdownItem key = {i}>{el.title}</DropdownItem>;
+            return <DropdownItem key = {i}>{el.title} </DropdownItem>;
         }
     }
 
