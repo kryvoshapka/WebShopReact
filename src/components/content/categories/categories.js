@@ -22,6 +22,9 @@ class Categories extends Component {
         this.state = {
             isOpen: false
         };
+        this.sendIndextoDel = i => {
+
+        }
     }
     toggle() {
         this.setState({
@@ -56,7 +59,7 @@ class Categories extends Component {
                             </UncontrolledDropdown>
                         </Nav>
                     </Collapse>
-                    <Cart cartContent = {this.props.toCart}/>
+                    <Cart cartContent = {this.props.toCart} delProd = {this.props.sendIndextoDel} />
                 </Navbar>
             </div>
         );
